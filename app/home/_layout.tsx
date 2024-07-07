@@ -9,10 +9,10 @@ export default function _layout() {
         headerShown: false
     }}>
         <Tabs.Screen
-            name="settings"
+            name="General"
             options={{
                 tabBarIcon: ({size, color})=>(
-                    <Ionicons name='settings' size={size} color={color} />
+                    <Ionicons name='ios-information-circle' size={size} color={color} />
                 )
             }}
         />

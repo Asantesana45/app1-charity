@@ -40,6 +40,41 @@ export default function _layout() {
 
             }}
         />
-        
+         <Drawer.Screen
+    name="Profile"
+    options={{
+        drawerLabel: 'Profile',
+        title: 'Profile',
+        drawerIcon: ({size, color}) => (
+            <Ionicons name='ios-person' size={size} color={color} />
+        )
+    }}
+/>
+
+
+        <Drawer.Screen
+    name="Fundraise"
+    options={{
+        drawerLabel: 'Fundraise',
+        title: 'Fundraise',
+        drawerIcon: ({size, color}) => (
+            <Ionicons name='ios-cash' size={size} color={color} />
+        )
+    }}
+/>
+
+<Drawer.Screen
+    name="Donation"
+    options={{
+        drawerLabel: 'Donation',
+        title: 'Donation',
+        drawerIcon: ({size, color}) => (
+            <Ionicons name='ios-heart' size={size} color={color} />
+        )
+    }}
+/>
+
+
+
     </Drawer>
 }
